@@ -1,0 +1,2 @@
+include_rules
+: ./src/*.o |> ^ LINK %f^ gcc %f -o %o |> cmark

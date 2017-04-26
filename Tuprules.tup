@@ -1,0 +1,5 @@
+CFLAGS += -Wall
+CFLAGS += -O2
+CFLAGS += -I$(TUP_CWD)/src
+
+!cc = |> ^ CC %f^ gcc $(CFLAGS) -c %f -o %o |>
